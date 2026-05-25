@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img width="1200" src="./biteloop.png" alt="xyra-logo" />
+  <img width="1200" src="./biteloop (1).png" alt="xyra-logo" />
 </div>
 
 ---
