@@ -48,7 +48,7 @@ The platform connects users, restaurants, delivery systems, and administrators i
 
 # 🧠 Core Features
 
-<img align="right" src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="260" />
+
 
 ### 🍽️ User Experience
 
@@ -65,7 +65,6 @@ The platform connects users, restaurants, delivery systems, and administrators i
 
 # 🏪 Restaurant Portal
 
-<img align="right" src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="260"/>
 
 - Restaurant onboarding system  
 - Add/edit/delete food items  
@@ -80,7 +79,6 @@ The platform connects users, restaurants, delivery systems, and administrators i
 
 # 🛠️ Admin Dashboard
 
-<img align="right" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="260"/>
 
 - Manage users & restaurants  
 - Monitor platform activity  
