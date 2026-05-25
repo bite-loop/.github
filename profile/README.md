@@ -1,7 +1,7 @@
-# 🚀 BITELOOP --- Food Delivery e-commerce
+# 🚀 BITELOOP — Food Delivery E-Commerce Platform
 
 <p align="center">
-  <b>Build • Understand • Debug • Scale with AI:</b>
+  <b>Order • Deliver • Manage • Scale Seamlessly</b>
 </p>
 
 <div align="center">
@@ -9,7 +9,7 @@
 </div>
 
 <div align="center">
-  <img width="1200" src="./biteloop (1).png" alt="xyra-logo" />
+  <img width="1200" src="./biteloop (1).png" alt="biteloop-banner" />
 </div>
 
 ---
@@ -22,62 +22,195 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-38BDF8?style=for-the-badge&logo=tailwindcss)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
 <br/>
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions)
-![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai)
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)
 
 </div>
 
 ---
 
-# 🚀 About XYRA AI
+# 🍔 About BITELOOP
 
-XYRA AI is a next-generation AI platform for developers.
+BITELOOP is a modern food delivery and restaurant management platform built for scalability and real-world production workflows.
 
-- 🧠 Understand complex codebases instantly  
-- 🐛 Debug errors intelligently  
-- 🏗️ Generate system architecture  
-- ⚡ Accelerate development workflows  
+The platform connects users, restaurants, delivery systems, and administrators into one seamless ecosystem.
+
+- 🍕 Discover restaurants nearby  
+- 🛒 Order food with real-time cart management  
+- 🏪 Restaurant self-registration portal  
+- 📦 Smart order & delivery workflow  
+- ⚡ Fast and responsive modern UI  
+- 🔐 Secure authentication & payments  
 
 ---
 
-# 🧠 XYRA AI (Core Feature)
+# 🧠 Core Features
 
-<img align="right" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJmb293YzhtZ3N0bzhkb2o0aHdjYm82MWZkNDU3eDFod2N0aDV1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IKFVtPf8jP6KJH16dB/giphy.gif" width="260" />
+<img align="right" src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="260" />
 
-### 🔍 Codebase Understanding
+### 🍽️ User Experience
 
-- 📖 Human-readable explanations  
-- 🗂️ Smart file grouping  
-- ⚙️ Tech stack detection  
-- 🔗 Dependency mapping  
-- 🚀 “Start Here” onboarding guide  
+- Browse restaurants dynamically  
+- Explore trending foods  
+- Category-based filtering  
+- Real-time cart updates  
+- Wishlist & favorites system  
+- Responsive mobile-first design  
 
 <br clear="right"/>
 
 ---
 
-# 🐛 Bug Fix Assistant
+# 🏪 Restaurant Portal
 
-<img align="right" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FuNHU3NGVoMzV0b3R0bThtYWEzaHBpanJieHk3cDBwN3JvNXU0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fqrXU5bfnbQg9bCAKI/giphy.gif" width="260"/>
+<img align="right" src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="260"/>
 
-- Paste errors or logs  
-- Get clear explanations  
-- AI-generated fixes  
-- Suggested file locations  
+- Restaurant onboarding system  
+- Add/edit/delete food items  
+- Upload food images  
+- Order management dashboard  
+- Analytics & sales overview  
+- Manage restaurant profile  
 
 <br clear="right"/>
 
 ---
 
-# 🏗️ Architecture Generator
+# 🛠️ Admin Dashboard
 
-<img align="right" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTRucGZkNzBqbGk1N3hvcGxmankwNGJoZWg5bTZyN2FocmsydXN2ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MqvW2tvxXdCmRUaqYm/giphy.gif" width="260"/>
+<img align="right" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="260"/>
 
-- Generate system design  
-- API structure insights  
-- Data flow explanation  
-- Full-stack mapping  
+- Manage users & restaurants  
+- Monitor platform activity  
+- Approve restaurant registrations  
+- Handle reports & moderation  
+- Track orders and platform metrics  
 
 <br clear="right"/>
+
+---
+
+# ⚙️ Tech Stack
+
+### Frontend
+- Next.js 15  
+- React 19  
+- TypeScript  
+- Tailwind CSS  
+- Framer Motion  
+- Zustand  
+
+### Backend & Database
+- Firebase Authentication  
+- Firestore Database  
+- Firebase Storage  
+- Firebase Admin SDK  
+
+### Payments & Deployment
+- Stripe / Razorpay Integration  
+- Vercel Deployment  
+- Docker Support  
+
+---
+
+# 🏗️ Project Structure
+
+```bash
+biteloop/
+│
+├── app/
+│   ├── (auth)/
+│   ├── (user)/
+│   ├── restaurant/
+│   ├── admin/
+│   └── api/
+│
+├── components/
+│   ├── ui/
+│   ├── cards/
+│   ├── navbar/
+│   └── animations/
+│
+├── store/
+├── hooks/
+├── lib/
+├── firebase/
+├── types/
+├── constants/
+└── public/
+```
+
+---
+
+# 🔄 Workflow
+
+### 👤 User Flow
+1. User signs in  
+2. Browses restaurants  
+3. Adds food to cart  
+4. Places order securely  
+5. Tracks delivery/order status  
+
+### 🏪 Restaurant Flow
+1. Restaurant registers  
+2. Admin approval process  
+3. Upload menu & pricing  
+4. Accept/manage orders  
+5. Monitor analytics  
+
+### 🛡️ Admin Flow
+1. Manage platform users  
+2. Approve restaurants  
+3. Moderate content  
+4. Track platform growth  
+
+---
+
+# 🚀 Future Plans
+
+- 🤖 AI food recommendation system  
+- 📍 Live order tracking with maps  
+- 🧾 Invoice & billing system  
+- 🌐 Multi-language support  
+- 📊 Advanced analytics dashboard  
+- 🧠 AI chatbot support assistant  
+- 📦 Delivery partner application  
+- 🍱 Subscription meal plans  
+- 🔔 Push notifications  
+- 📱 Native mobile app release  
+
+---
+
+# 🔐 Security & Scalability
+
+- Firebase security rules  
+- Role-based authentication  
+- Optimized Firestore queries  
+- Scalable cloud infrastructure  
+- Image optimization & caching  
+- Modular architecture for expansion  
+
+---
+
+# 💻 Local Setup
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/biteloop.git
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+---
+
+# 🌟 Vision
+
+BITELOOP aims to become a next-generation food delivery ecosystem focused on speed, scalability, and seamless digital experiences for users and restaurants.
+
+---
